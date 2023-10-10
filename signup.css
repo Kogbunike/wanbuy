@@ -45,12 +45,19 @@ input {
   padding: 10px 20px;
   cursor: pointer;
   font-weight: 600;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
 }
 input:hover {
   color: #000;
-  background-color: #ff511c;
   transition: 0.3s;
   border-radius: 5px;
+  outline: none;
+}
+
+input:focus{
+  outline: none;
 }
 .signup-nav-btn {
   display: flex;
@@ -66,14 +73,14 @@ input:hover {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: #ff511c;
+  background: transparent;
   color: #ffff;
   outline: none;
   border: none;
   border-radius: 5px;
 }
 .signup-container {
-  background: #ff511c;
+  background-image: linear-gradient(to top, #f76c6c, #ececec);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,16 +108,23 @@ input:hover {
   align-items: center;
   justify-content: center;
   flex-basis: 50%;
-  background-color: #ff511c;
+  border: 1px solid #fff;
+  height: 100%;
+  background-color: transparent;
   font-family: roboto;
   padding: 20px;
 }
+
+.signup-form form{
+  width: 70%;
+}
+
 .signup-form h1 {
   text-align: center;
   margin-top: 25px;
   font-size: 2.5em;
   margin-bottom: 50px;
-  color: black;
+  color: #fff;
 }
 .input-box {
   background: transparent;
@@ -121,22 +135,26 @@ input:hover {
   margin: 10px;
 }
 .signup-btn {
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  border-radius: 5px;
-  background-color: black;
-  color: #fff;
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
   margin-top: 8px;
   margin-bottom: 8px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: none;
+  color: #fff;
 }
 .signup-btn:hover {
-  background: red;
   transition: 0.3s;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
 }
 .login-register p {
   font-size: 10px;
