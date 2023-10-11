@@ -12,6 +12,98 @@
   align-items: center;
   padding: 10px 20px;
 }
+.logo a{
+    text-decoration: none;
+}
+.nav .logo h1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #000;
+}
+.nav .logo b {
+  color: #ff511c;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  margin-right: 30px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.nav ul a:hover {
+  border: 5px solid #ff511c;
+  cursor: pointer;
+}
+input {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+input:hover {
+  color: #000;
+  background-color: #ff511c;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.signin {
+  background: transparent;
+  border: none;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ff511c;
+  color: #ffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.history-table h1 {
+  margin-bottom: 20px;
+}
+.history-table table {
+  width: 70%;
+}
+.history-table table td {
+    text-align: center;
+  padding: 10px;
+  border: 2px solid #ff511c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Autour One', cursive;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 .logo a {
   text-decoration: none;
 }
