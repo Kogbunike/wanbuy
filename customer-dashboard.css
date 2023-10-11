@@ -90,3 +90,11 @@ input:hover {
   padding: 10px;
   border: 2px solid #ff511c;
 }
+h3{
+    background: #ff511c;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+}

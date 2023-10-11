@@ -82,6 +82,9 @@ input:hover {
   padding: 5px;
   text-align: center;
 }
+.item a {
+    text-decoration: none;
+}
 .item button {
   padding: 5px 30px;
   border: none;

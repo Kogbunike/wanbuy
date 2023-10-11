@@ -12,8 +12,8 @@
   align-items: center;
   padding: 10px 20px;
 }
-.logo a{
-    text-decoration: none;
+.logo a {
+  text-decoration: none;
 }
 .nav .logo h1 {
   font-weight: 600;
@@ -68,9 +68,17 @@ input:hover {
   border-radius: 5px;
 }
 .nav-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  background: #ff511c;
+  margin: 5px;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
 }
 .history-table {
   display: flex;
@@ -86,7 +94,7 @@ input:hover {
   width: 70%;
 }
 .history-table table td {
-    text-align: center;
+  text-align: center;
   padding: 10px;
   border: 2px solid #ff511c;
 }

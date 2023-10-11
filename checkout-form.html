@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkout-form.css">
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Wan<b>Buy</b></h1></a
+          >
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#reviews">Review</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-btn">
+          <input class="signin" type="submit" value="Login" name="signin" />
+          <input class="signup" type="submit" value="Sign Up" name="signup" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">Billing Address</h3>
+            <div class="inputbox">
+              <span>Full Name :</span>
+              <input type="text" placeholder="Full Name" />
+            </div>
+            <div class="inputbox">
+              <span>Email :</span>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="inputbox">
+              <span>Address :</span>
+              <input type="text" placeholder="" />
+            </div>
+            <div class="inputbox">
+              <span>City :</span>
+              <input type="text" placeholder="" />
+            </div>
+            <div class="flex">
+              <div class="inputbox">
+                <span>State :</span>
+                <input type="text" placeholder="" />
+              </div>
+              <div class="inputbox">
+                <span>Zip Code :</span>
+                <input type="text" placeholder="" />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="title">Payment</h3>
+            <div class="inputbox">
+              <span>Cards Accepted :</span>
+              <img src="" />
+            </div>
+            <div class="inputbox">
+              <span>Name On Card :</span>
+              <input type="text" placeholder="" />
+            </div>
+            <div class="inputbox">
+              <span>Card Number :</span>
+              <input type="number" placeholder="1111-2222-3333-0000" />
+            </div>
+            <div class="inputbox">
+              <span>Expiry Month :</span>
+              <input type="text" placeholder="" />
+            </div>
+            <div class="flex">
+              <div class="inputbox">
+                <span>Expiry Year :</span>
+                <input type="number" placeholder="" />
+              </div>
+              <div class="inputbox">
+                <span>CVV :</span>
+                <input type="text" placeholder="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="proceed to checkout" class="submit-btn">
+      </form>
+    </div>
+  </body>
+</html>

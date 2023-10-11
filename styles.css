@@ -74,9 +74,8 @@ input:hover {
   justify-content: center;
 }
 
-.header-nav{
-  background-image: linear-gradient(to top right, #ECECEC, #F78888);
-
+.header-nav {
+  background-image: linear-gradient(to top right, #ececec, #f78888);
 }
 
 header,
@@ -249,7 +248,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 100px 200px;
+  padding: 50px 50px;
 }
 .contact-bottom {
   display: flex;
