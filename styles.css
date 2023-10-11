@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Autour One', cursive;
+}
+body {
+  background-color: #ececec;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav .logo h1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #000;
+}
+.nav .logo b,
+.hero-info h2 b {
+  color: #ff511c;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  margin-right: 30px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.nav ul a:hover {
+  border: 5px solid #ff511c;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+input:hover {
+  color: #000;
+  background-color: #ff511c;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.signin {
+  background: transparent;
+  border: none;
+}
+.signup {
+  background-color: #ff511c;
+  color: #ffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav{
+  background-image: linear-gradient(to top right, #ECECEC, #F78888);
+
+}
+
+header,
+main {
+  height: 50vh;
+}
+.hero-info {
+  margin-bottom: 90px;
+}
+.hero-info h2 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.hero-info p {
+  font-size: 23px;
+}
+.hero-info button {
+  border: 1px solid #ff511c;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.hero-info button:hover {
+  color: white;
+  background-color: #ff511c;
+  transition: 0.3s;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.first-flex {
+  flex: 1;
+  margin-top: 0 40%;
+}
+.first-flex img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 60px;
+  padding: 50px;
+}
+.second-flex {
+  flex: 1;
+  padding: 50px;
+}
+.second-flex button {
+  border: 1px solid #ff511c;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #ff511c;
+}
+.second-flex button:hover {
+  color: black;
+  background-color: #ff511c;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.header-card {
+  position: relative;
+  margin: 0 50px;
+}
+
+.header-card img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 29%;
+  position: relative;
+  margin: 29px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.header-card h1 {
+  color: #ff511c;
+  background-color: #ffeac0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img {
+  border: 1px solid #ff511c;
+  background-color: #ff511c;
+  position: absolute;
+  top: -40px;
+  align-items: center;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+  margin: 6px 0;
+  text-align: center;
+  font-size: 12px;
+}
+#reviews {
+  height: 100%;
+}
+#reviews h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px;
+}
+#Contact {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+/* input[type='submit'] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+} */
+.contact-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 200px;
+}
+.contact-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-top1 {
+  height: 380px;
+}
+.contact-top2 {
+  height: 380px;
+}
+.contact-top3 {
+  height: 380px;
+}
+.contact-top2 h1 {
+  margin-bottom: 100px;
+}
+.contact-top2 ul li {
+  margin-bottom: 1px;
+}
+.contact-top3 img {
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
